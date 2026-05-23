@@ -1,22 +1,22 @@
-# 🩺 Diabetes Prediction using Machine Learning
+#  Diabetes Prediction using Machine Learning
 
 > *Predicting diabetes risk from diagnostic health data using supervised ML techniques.*
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project builds and evaluates multiple machine learning models to predict whether a patient has diabetes based on diagnostic health measurements. It uses the well-known **Pima Indians Diabetes Dataset** and covers the complete ML pipeline — from data cleaning and EDA to model training, evaluation, and comparison.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Diabetes is a chronic disease affecting millions worldwide. Early detection is critical for effective treatment. Traditional diagnosis requires lab tests and expert interpretation — this project aims to automate risk prediction using patient health data.
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 FDAProject/
@@ -32,7 +32,7 @@ FDAProject/
 
 ---
 
-## 🔬 Dataset
+##  Dataset
 
 - **Source:** Pima Indians Diabetes Dataset
 - **Features:** 8 diagnostic measurements
@@ -51,7 +51,7 @@ FDAProject/
 
 ---
 
-## ⚙️ ML Pipeline
+##  ML Pipeline
 
 ```
 Raw Data → Data Cleaning → EDA → Feature Engineering → Model Training → Evaluation
@@ -77,7 +77,7 @@ Raw Data → Data Cleaning → EDA → Feature Engineering → Model Training �
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the repository
 ```bash
@@ -100,7 +100,7 @@ jupyter notebook project.ipynb
 
 ---
 
-## 📊 Results
+##  Results
 
 The models were evaluated using 5-fold cross-validation and test set metrics. Random Forest achieved the best overall performance with the highest AUC score.
 
@@ -108,7 +108,7 @@ The models were evaluated using 5-fold cross-validation and test set metrics. Ra
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Hyperparameter tuning with GridSearchCV
 - Try XGBoost / LightGBM for better accuracy
@@ -118,7 +118,7 @@ The models were evaluated using 5-fold cross-validation and test set metrics. Ra
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Krish Malik**  
 [GitHub](https://github.com/KkrishM)
